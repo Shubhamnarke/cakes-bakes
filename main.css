@@ -1,0 +1,201 @@
+body{
+	background-color: #270c0c;
+}
+*{
+	scroll-behavior: smooth;
+}
+
+.mySlides {
+	position: absolute;
+	display:none;
+}
+.home-page{
+	margin-top: 5px;
+}
+.logo{
+	margin-top: 100px;
+	width: 80%;
+}
+.logo{
+	position: relative;
+	width: 80%;
+}
+
+
+.icons{
+	position: relative;
+	margin: 15px;
+	margin-top: 100px;
+	color: white;
+
+}
+
+.tag-line{
+	margin-top: -70px;
+	position: relative;
+	color: white;
+	font-family: 'Niramit';
+	font-size: 15px;
+}
+
+
+
+/*Slde Show*/
+.Slideshow-head-text{
+
+	
+	color: white;
+	font-family: 'Bubblegum Sans';
+	font-size: 25px;
+	
+}
+
+.lattest-box{
+	width: 200px;
+	height: 40px;
+}
+.Slideshow{
+
+	
+
+	margin-top: 400px;
+	
+
+}
+.swiper-container{
+
+  width: 350px;
+  height: 400px;
+}
+.swiper-slide{
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.swiper-button-prev{
+  font-size: 20px;
+}
+.swiper-wrapper{
+	margin-top: 20px;
+}
+
+
+/* -------cake menu---------*/
+
+.menu-boxs{
+	width: 200px;
+	height: 40px;
+
+}
+.cake-menu{
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+.menu{
+
+  margin-top: 30px;
+  margin-bottom: 150px;
+
+}
+
+.shirt-img{
+  width: 90%;
+  
+}
+
+
+.menu-box{
+  
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu-head{
+  font-size: 20px;
+  font-family: 'Arsenal';
+}
+.Starting-from{
+  font-size: 12px;
+}
+.cake-heading-text{
+	font-size: 13px;
+	margin-top: -10px;
+}
+
+
+
+/*------------------------------------------chocolate & red velvet cake menu---------------------------*/
+.chocklet-container{
+  padding-top: 100px;
+}
+
+.cake-name{
+ font-family: 'Archivo';
+  margin-bottom: -15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 13px;
+}
+
+
+
+
+
+.span{
+
+  
+    color: white;
+    animation: blink 1s linear infinite;
+  }
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------red velvet--------------------------------------------*/
+
+
+
+.red-velvet{
+  margin-top: 200px;
+  padding-top: 50px;
+
+  
+}
+
+
+.cake-head-red{
+  color: #ff0066;
+  font-size: 20px;
+  font-family: 'Aleo';
+  font-weight: 400px;
+}
+
+
+
+.menu-boxss{
+  width: 200px;
+  height: 40px;
+
+}
+
+
+.Slideshow-head-text-red{
+  color: white;
+  font-family: 'Bubblegum Sans';
+  font-size: 25px;
+  font-weight: 100;
+}
