@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Cake Celebration</title>
+  <!-- Aos Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Swiper js -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -54,10 +56,12 @@
       
 </nav>
 <!-- x-x-x-x-x-x-x-x-x-x--x-x-x-x-x-x- -->
-<a href="#menu-box" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 100px;margin-left: 310px;
+<a data-aos="fade-up"
+     data-aos-duration="3000"  href="#menu-box" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 100px;margin-left: 310px;
 text-decoration: none;text-align: center;align-items: center;justify-content: center;width: 40px;height:40px;background-color: #4076EA;color: white;font-size: 20px;border-radius: 50%;"><p style="margin-top: 10px;">menu</p></a>
 
-<a href="tel:917276039573" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 100px;margin-left: 10px;
+<a  data-aos="fade-up"
+     data-aos-duration="3000" href="tel:917276039573" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 100px;margin-left: 10px;
 text-decoration: none;text-align: center;align-items: center;justify-content: center;width: 40px;height:40px;background-color: #2db300;color: white;font-size: 20px;border-radius: 50%;"><p style="margin-top: 10px;">call</p></a>
 
 <!-- Automatic Slideshow -->
@@ -91,8 +95,10 @@ function carousel() {
 <!-- x-x-x-x-x-x-x-x-x-x-Home Page -->
 <div class="container home-page">
 	<center>
-    <img class="logo" src="img/logo.png">
-    <p class="tag-line">We create delicious memories</p>
+    <img data-aos="fade-up"
+     data-aos-duration="3000"  class="logo" src="img/logo.png">
+    <p data-aos="fade-up"
+     data-aos-duration="3000" class="tag-line">We create delicious memories</p>
 				<div>
 	
 			<a href="#" class="material-icons icons" >chat</a>
@@ -109,7 +115,7 @@ function carousel() {
  <div class="swiper-container Slideshow">
     <!-- Additional required wrapper -->
     <div class="btn btn-outline-warning lattest-box">
-      
+
       <h4 class="Slideshow-head-text " >Lattest Designs</h4>
     </div>
     
@@ -159,13 +165,13 @@ var swiper = new Swiper('.swiper-container', {
 <a id="menu-box"></a>
 <div  class="container cake-menu">
   <center>
-    <div class="btn btn-outline-warning menu-boxs">
-      <h4 class="Slideshow-head-text ">Cake Menu</h4>
+    <div data-aos="zoom-in-up" class="btn btn-outline-warning menu-boxs">
+      <h4  class="Slideshow-head-text ">Cake Menu</h4>
      
       
     </div>
      <center>
-        <img src="safe3.jpg" style="width: 330px;height: 100px;margin-top: 20px;">
+        <img data-aos="zoom-in-up" src="safe3.jpg" style="width: 330px;height: 100px;margin-top: 20px;">
       </center>
 <div class="row menu">
   
@@ -237,11 +243,11 @@ var swiper = new Swiper('.swiper-container', {
 <a id="chocolate"></a>
 <div  class="container chocklet-container">
   <center>
-    <div class="btn btn-outline-warning menu-boxs">
+    <div data-aos="zoom-in-up" class="btn btn-outline-warning menu-boxs">
       <h4 class="Slideshow-head-text ">Chocolate Cakes</h4>
     </div>
     <center>
-        <img src="safe2.gif" style="width: 330px;height: 100px;margin-top: 20px;">
+        <img data-aos="zoom-in-up" src="safe2.gif" style="width: 330px;height: 100px;margin-top: 20px;">
       </center>
       <div class="row menu">
   <div data-aos="zoom-in-up" class="col-6 menu-box" style="background-color: #1a0000;">
@@ -308,11 +314,11 @@ var swiper = new Swiper('.swiper-container', {
 <a id="red"></a>
 <div class="container red-velvet">
   <center>
-    <div class="btn btn-outline-warning menu-boxs">
+    <div data-aos="zoom-in-up" class="btn btn-outline-warning menu-boxs">
       <h4 class="Slideshow-head-text-red ">Red Velvet</h4>
     </div>
     <center>
-        <img src="safe2.gif" style="width: 330px;height: 100px;margin-top: 20px;">
+        <img data-aos="zoom-in-up" src="safe2.gif" style="width: 330px;height: 100px;margin-top: 20px;">
       </center>
     <div class="row menu">
     <div data-aos="zoom-in-up" class="col-6 menu-box" style="background-color: #1a0000;">
@@ -352,7 +358,13 @@ var swiper = new Swiper('.swiper-container', {
   $('.navbar-collapse').collapse('hide');
 });
 </script>
-
+  
+  <!-- Aos Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+  <!-- x-x-x-x--x-x -->
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
